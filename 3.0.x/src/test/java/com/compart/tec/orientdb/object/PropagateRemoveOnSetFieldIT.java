@@ -88,7 +88,8 @@ public class PropagateRemoveOnSetFieldIT
     }
 
     /**
-     * It throws exception
+     * It throws exception in 3.0.21
+     * It fails in 3.0.0
      */
     @Test
     public void testCascadeSetObjectUpdate()
